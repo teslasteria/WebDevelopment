@@ -1,0 +1,167 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="description" content="Serfing school" />
+    <meta name="author" content="Shell compony" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link
+      rel="shortcut icon"
+      type="image/png"
+      href="img/sea-wave-clipart-lg.png"
+    />
+    <link rel="stylesheet" href="css/style.css" />
+    <title>Shell</title>
+  </head>
+  <body>
+    <!-- intro -->
+    <section class="intro">
+      <h1 class="main-title" id="header1">Serfing School</h1>
+    </section>
+
+    <!-- nav  -->
+    <nav class="menu">
+      <ul>
+        <li><a class="link" href="#">Home</a></li>
+        <li><a class="link" href="#">About</a></li>
+        <li><a class="link" href="#">Services</a></li>
+        <li><a class="link" href="#">Accessories</a></li>
+        <li><a class="link" href="#">Souvenirs</a></li>
+      </ul>
+    </nav>
+
+    <!-- book a service -->
+    <div class="form-div" style="display: flex">
+      <section class="form-container" style="flex: 1">
+        <h2>Sign up</h2>
+        <form id="booking-form">
+          <!-- name -->
+          <div class="form-group">
+            <label for="name">Name:</label>
+            <input
+              type="text"
+              id="name"
+              name="name"
+              required
+              placeholder="Enter your name"
+            />
+          </div>
+
+          <!-- cell number -->
+          <div class="form-group">
+            <label for="phone">Cell:</label>
+            <input
+              type="cell"
+              id="phone"
+              name="phone"
+              required
+              placeholder="Enter your number"
+            />
+          </div>
+
+          <!-- email -->
+          <div class="form-group">
+            <label for="email">Email:</label>
+            <input
+              type="email"
+              id="email"
+              name="email"
+              required
+              placeholder="Enter your email"
+            />
+          </div>
+
+          <!-- training type -->
+          <div class="form-group">
+            <label>training:</label>
+            <div class="radio-group">
+              <label>
+                <input
+                  type="radio"
+                  name="training-type"
+                  value="group"
+                  required
+                />
+                <span>group</span>
+              </label>
+              <label>
+                <input
+                  type="radio"
+                  name="training-type"
+                  value="personal"
+                  required
+                />
+                <span>personal</span>
+              </label>
+            </div>
+          </div>
+
+          <!-- button -->
+          <button type="submit">done</button>
+        </form>
+      </section>
+      <article class="greeting" style="flex: 1">
+        <p class="line-break">
+          Welcome to the Surfing School Shell — your reliable support in the
+          surfing world! We offer professional training for all levels, from
+          beginners taking their first steps on the board to experienced riders
+          aspiring to new heights. Our team of certified instructors with many
+          years of experience guarantees safety, individual approach and
+          effective teaching methods. We use only high-quality equipment from
+          trusted brands to make your journey to mastery comfortable and
+          inspiring. Trust the Surfing School Shell and discover an ocean of
+          possibilities!
+        </p>
+      </article>
+    </div>
+
+    <!-- shop-overview -->
+    <section class="shop-overview">
+      <h2>Description</h2>
+      <div class="shop-items">
+        <div class="shop-item">
+          <img
+            src="img/Colorful Surfboards at a Tropical Beach.jpeg"
+            alt="Serfboard"
+          />
+          <h3>Serfboards</h3>
+          <p>A wide selection of serfboards for all levels</p>
+        </div>
+        <div class="shop-item">
+          <img src="img/Sunny Beach Serenity.jpeg" alt="place" />
+          <h3>Ocean</h3>
+          <p>Have a look at the place where you're gonna train</p>
+        </div>
+        <div class="shop-item">
+          <img src="img/Stylish Surf Shop Interior.jpeg" alt="accessories" />
+          <h3>Accessories</h3>
+          <p>All the necessary things and tools for surfing</p>
+        </div>
+      </div>
+    </section>
+
+    <!-- footer -->
+    <footer>
+      <div class="footer-content">
+        <div class="footer-section">
+          <h3>Contacts</h3>
+          <p>Email: info@shell-serfing.com</p>
+          <p>Cell: +1 (123) 456-78-90</p>
+        </div>
+        <div class="footer-section">
+          <h3>Social Media</h3>
+          <a href="https://www.facebook.com/?locale=ru_RU"
+            ><i class="fab fa-facebook">facebook</i></a
+          ><br />
+          <a href="https://www.instagram.com/"
+            ><i class="fab fa-instagram">instagram</i></a
+          ><br />
+          <a href="https://twitter.com/"
+            >twitter<i class="fab fa-twitter"></i
+          ></a>
+        </div>
+      </div>
+      <div class="footer-bottom">&copy; 2025 Shell. All rights reserved.</div>
+    </footer>
+  </body>
+</html>
