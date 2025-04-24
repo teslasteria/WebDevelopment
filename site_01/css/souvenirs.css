@@ -93,3 +93,21 @@
 .btn-buy:hover {
   background-color: black;
 }
+
+@media (max-width: 576px) {
+  .section-title {
+    font-size: 1.6rem;
+  }
+
+  .section-intro {
+    font-size: 1rem;
+  }
+
+  .souvenir-info h3 {
+    font-size: 1.2rem;
+  }
+
+  .price {
+    font-size: 1.1rem;
+  }
+}

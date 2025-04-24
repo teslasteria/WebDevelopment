@@ -110,5 +110,38 @@
 }
 
 .btn-add-to-cart:hover {
-  background-color: #1b8efa;
+  background-color: black;
+}
+
+/* Responsive Adjustments */
+@media (max-width: 768px) {
+  .accessories-intro h2 {
+    font-size: 1.8rem;
+  }
+
+  .accessories-grid {
+    grid-template-columns: 1fr;
+  }
+
+  .card-image {
+    height: 250px;
+  }
+}
+
+@media (max-width: 576px) {
+  .accessories-intro h2 {
+    font-size: 1.6rem;
+  }
+
+  .accessories-intro p {
+    font-size: 1rem;
+  }
+
+  .card-content h3 {
+    font-size: 1.2rem;
+  }
+
+  .price {
+    font-size: 1.1rem;
+  }
 }

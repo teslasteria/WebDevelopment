@@ -16,12 +16,19 @@ body {
   background-image: url(/img/header03.jpg);
   background-size: cover;
   background-position: center;
-  height: 400px;
+  height: 100vh;
   margin: 0;
   text-shadow: #20211b 5px 5px;
 }
 
 /* Навигация */
+nav {
+  position: fixed;
+  left: 0;
+  top: 0;
+  width: 100%;
+}
+
 nav ul {
   list-style: none;
   margin: 0;
