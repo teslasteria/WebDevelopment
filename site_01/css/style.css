@@ -13,7 +13,8 @@ body {
   font-size: 115px;
   padding: 10px;
   color: white;
-  background-image: url(/img/header03.jpg);
+  /* background-color: #20211b; */
+  background-image: url(../img/header02.jpg);
   background-size: cover;
   background-position: center;
   height: 100vh;
